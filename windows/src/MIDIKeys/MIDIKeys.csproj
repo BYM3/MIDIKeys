@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>..\..\Resources\AppIcon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>MIDIKeys</AssemblyName>
+    <RootNamespace>MIDIKeys</RootNamespace>
+    <Version>1.0.0</Version>
+    <Product>MIDIKeys</Product>
+    <Company>BYM3</Company>
+    <Description>Verwandelt die Tastatur in ein MIDI-Keyboard.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MIDIKeys.Core\MIDIKeys.Core.csproj" />
+  </ItemGroup>
+
+</Project>
